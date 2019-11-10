@@ -1,18 +1,33 @@
-header{
+header {
     background: #bbbbbb;
+    padding: 20px 0;
 }
 
-nav li{
-    
-    font-family: 'Courier New', Courier, monospace;
-    display: inline;
-    margin: 0 0 0 15px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-nav a{
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 22px;
     color: #000000;
 }
+
+nav li {
+    
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
